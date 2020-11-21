@@ -4,8 +4,9 @@ var shopper = {
     barcode: 8948430,
     price: 139.47,
     display: function () { 
-        console.log (shopper.product) + (shopper.department) + (shopper.barcode) + (shopper.price);
-        }
+        console.log ((shopper.product) + (shopper.department) + (shopper.barcode) + (shopper.price));
+        console.log(`${shopper.product} ${shopper.department} ${shopper.barcode} ${shopper.price}`);
+            } 
     }
 
-    shopper.displayInfo();
+    shopper.display();
