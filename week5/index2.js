@@ -1,14 +1,22 @@
 // #A
 function fiveAndGreaterOnly(arr) {
    var result = arr.filter(function(numbers){
-   if (numbers >= 5);
-   return numbers;
+   if (numbers >= 5) {
+      return numbers;
+   }
+   
    });
    return result;
 }
 console.log( "Array Filter" );
 console.log( fiveAndGreaterOnly( [3, 6, 8, 2 ]));
 
+function evenOnly(arr){
+var jaden = arr.filter(function (kyrie){
+if (kyrie% 2 === 0) {return true;}
+return jaden
+})}
+console.log (evenOnly([3, 6, 8, 2]));
 
 
 
