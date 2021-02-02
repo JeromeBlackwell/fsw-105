@@ -84,7 +84,7 @@ this.initialize = function() {
         if (walking === "w") {
         generateStraydinasour();
         console.log ('Walking...');
-        console.log(' Look look look, A' + dinasour + ' has appeared');
+        console.log(' Look look look, A ' + dinasour + ' has appeared');
         self.processAttack();
         while(self.dinasourIsActive === false && self.dinasourCount <= dinasours.length) {
             console.log('============================================================');
